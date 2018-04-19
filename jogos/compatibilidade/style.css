@@ -1,0 +1,25 @@
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+/* Star Rating */
+.rating-container .clear-rating,
+.rating-container .caption{
+	display: none !important;
+}
+.rating-container .rating .star{
+	font-size: .5em;
+}
+.glyphicon.glyphicon-heart,
+.rating-container .filled-stars{
+	color: #e998c1 !important;
+}
+
+/**/
+#anwser{ 
+	display: none;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}

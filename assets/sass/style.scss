@@ -1,0 +1,31 @@
+// ==========================================================================
+// Theme Style Main
+// ==========================================================================
+
+/*!
+Theme Name: Odin
+Author URI: http://wpod.in/
+Description: Odin main stylesheet.
+Author: the Odin team
+Author URI: http://wpod.in/#colaboradores
+*/
+
+@import
+        "variables",           // Theme       Custom Variables
+        "bootstrap/bootstrap", // Bootstrap   Styles Core
+        "wordpress/wordpress", // WordPress   Styles Core
+        //"woocommerce",       // WooCommerce Styles Core
+        "odin/core",           // Odin        Styles Core
+        "utilities",           // Theme       Custom Layout
+        "form",        		   // Theme       Custom Layout
+        "layout",              // Theme       Custom Layout
+        "header",              // Theme       Custom Layout
+        "footer",              // Theme       Custom Layout
+        "nav", 	               // Theme       Custom Layout
+        "article", 	           // Theme       Custom Layout
+        "wengosense",          // Theme       Custom Layout
+    	"social", 	           // Theme       Custom Layout
+        "svg-icons",           // Theme       Custom Layout
+        "tarot-amor",          // Jogos       Custom Layout
+        "signs-compatibility"  // Jogos       Jogo compatibilidade de signos
+;

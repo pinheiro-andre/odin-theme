@@ -1,0 +1,22 @@
+{
+	"boss"     : true,
+	"curly"    : true,
+	"eqeqeq"   : true,
+	"eqnull"   : true,
+	"es3"      : true,
+	"expr"     : true,
+	"immed"    : true,
+	"noarg"    : true,
+	"vars"     : true,
+	"quotmark" : "single",
+	"trailing" : true,
+	"undef"    : true,
+	"unused"   : true,
+	"browser"  : true,
+	"globals"  : {
+		"require" : true,
+		"console" : true,
+		"module"  : true,
+		"exports" : true
+	}
+}

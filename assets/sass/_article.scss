@@ -1,0 +1,377 @@
+// ==========================================================================
+// Article styles
+// ==========================================================================
+.post {
+    width: 100%;
+    margin-bottom: 2.500rem;
+
+    .entry-header {
+        margin-bottom: 1.250rem;
+
+        h1 {
+            margin-bottom: 0.625rem;
+            font-family: $font-bold;
+            font-size: 1.625rem;
+            line-height: 1.2em;
+            color: $a-purple;
+        }
+        .entry-meta {
+            @include clearfix;
+        }
+        .byline {
+            display: block;
+        }
+        .byline,
+        .entry-date {
+            vertical-align: middle;
+        }
+        .byline,
+        .entry-date,
+        .entry-comments {
+            font-size: 0.750rem;
+        }
+        .entry-date {
+            float: left;
+        }
+        .entry-comments {
+            float: right;
+
+            a {
+                color: $pink-violet;
+            }
+        }
+        .entry-date,
+        .entry-comments {
+            padding-left: 1.250rem;
+            background-position: left center;
+            background-size: 0.875rem 0.875rem;
+        }
+        svg {
+            height: 14px;
+            width: 14px;
+            margin-right: 0.125rem;
+            vertical-align: middle;
+            fill: $gray-regular;
+        }
+        @include media-breakpoint-up(md) {
+            margin-bottom: 1.875rem;
+
+            .entry-date,
+            .entry-comments {
+                font-size: 0.813rem;
+                float: none;
+            }
+            .entry-date {
+                display: inline-block;
+                margin-right: 1.25rem;
+            }
+        }
+    }
+    .entry-content {
+        margin-bottom: 2.500rem;
+        font-size: 0.875rem;
+        line-height: 1.875em;
+        color: $gray-regular;
+
+        h2, h3, h4 {
+            margin: 0;
+            padding: 1.563rem 0 0.938rem;
+        }
+        p {
+            margin: 0;
+            padding: 0.5rem 0;
+        }
+        a {
+            color: $pink-violet;
+        }
+        ul {
+            padding: 0.625rem 1.875rem;
+            list-style: disc;
+
+            li {
+                padding: 0.313rem 0;
+            }
+        }
+
+        .cta-desktop{ @extend .hidden-md-down }
+        .cta-mobile{ @extend .hidden-lg-up }
+
+    }
+    .wp-picture,
+    .wp-picture-ie {
+        display: block;
+        margin-bottom: 1.250rem;
+        margin-left: -($grid-gutter-width-base / 2);
+        margin-right: -($grid-gutter-width-base / 2);
+
+        img {
+            height: auto;
+            width: 100%;
+        }
+        @include media-breakpoint-up(sm) {
+            margin-left: 0;
+            margin-right: 0;
+        }
+    }
+    .wp-picture {
+        @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+            display: none;
+        }
+    }
+    .wp-picture-ie {
+        height: auto;
+        width: 100%;
+        display: none;
+
+        @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+            display: block;
+        }
+    }
+    // .wp-caption-text {
+    //     padding: 0.313rem ($grid-gutter-width-base / 2);
+    //     color: $gray-smooth;
+    //     font-size: 0.750rem;
+    //     font-style: italic;
+    //     line-height: 1em;
+
+    //     @include media-breakpoint-up(sm) {
+    //         padding: 0.313rem 0;
+    //     }
+    // }
+
+    // Article in list mode
+    .article-list &{
+        @extend .d-flex;
+        flex-direction: column-reverse;
+
+        @include media-breakpoint-up(sm) {
+            flex-direction: row-reverse;
+        }
+        .entry-header {
+            margin-bottom: 0;
+
+            @include media-breakpoint-up(sm) {
+                width: 58%;
+            }
+        }
+        .entry-title {
+            line-height: 1.625rem;
+
+            @include media-breakpoint-up(sm) {
+                margin-bottom: 0.313rem;
+            }
+            a {
+                color: $gray-strong;
+            }
+        }
+        .entry-summary {
+            display: none;
+
+            p {
+                font-size: 0.875rem;
+            }
+        }
+        .post-categories {
+            line-height: 1em;
+
+            a {
+                font-size: 0.750rem;
+                line-height: 1.5em;
+                text-transform: uppercase;
+                color: $pink-violet;
+            }
+        }
+        .entry-content {
+            margin-bottom: 0;
+
+            @include media-breakpoint-up(sm) {
+                padding-right: 0.938rem;
+                width: 42%;
+            }
+            .wp-picture,
+            .wp-picture-ie {
+                margin-bottom: 0.625rem;
+
+                @include media-breakpoint-up(sm) {
+                    margin-bottom: 0;
+                    border: 3px solid $pink-feature;
+
+                }
+                // style for border on picture of category
+                .category-tarologia &,
+                .category-cartomancia &{
+                    border-color: rgba(242,148,148,1);
+                }
+                .category-videncia &,
+                .category-mediunidade &,
+                .category-espiritualidade &,
+                .category-oracoes &,
+                .category-salmos &,
+                .category-simpatias &,
+                .category-anjos & {
+                    border-color: rgba(160,122,178,1);
+                }
+                .category-astrologia &,
+                .category-lua &,
+                .category-signos &{
+                    border-color: rgba(252,214,109,1);
+                }
+                .category-oraculos &{
+                    border-color: rgba(234,180,131,1);
+                }
+                .category-numerologia &{
+                    border-color: rgba(103,155,228,1);
+                }
+                .category-bem-estar &,
+                .category-mensagens &,
+                .category-banhos &,
+                .category-sonhos &,
+                .category-feng-shui &,
+                .category-reiki &,
+                .category-autoajuda &{
+                    border-color: rgba(180,118,200,1);
+                }
+            }
+        }
+    }
+    .cta-desktop,
+    .cta-mobile {
+        text-align: center;
+    }
+    .cta-mobile{
+        @include media-breakpoint-up(sm) {
+            display: none;
+        }
+    }
+    .cta-desktop{
+        @include media-breakpoint-down(sm) {
+            display: none;
+        }
+    }
+    table {
+        width: 100%;
+
+        tr {
+            line-height: 2rem;
+        }
+        thead tr {
+            border-bottom: 1px solid $gray-smooth;
+        }
+        tbody tr:nth-child(even) {
+            background-color: $semi-white;
+        }
+    }
+}
+
+// wengosense
+#wengosense_below_article{
+    .wg-card > a{
+        width: 100%;
+    }
+}
+#astroshoppingsense_below_article{
+
+    @include media-breakpoint-down(sm) {
+        .card-columns{
+            column-count: 1;
+        }
+    }
+    @include media-breakpoint-up(sm) {
+        .card-columns{
+            column-count: 2;
+        }
+    }
+
+    .card-columns{
+        .card{
+            display: flex;
+            h4{
+                min-height: 58px;
+            }
+        }
+    }
+}
+
+// add color to tabola title
+.trc_rbox_header_span {
+    display: block;
+    @extend h3;
+}
+
+// ==========================================================================
+// Comments
+// ==========================================================================
+.comment-form {
+    padding-top: 0.625rem;
+
+    a {
+        font-size: 0.875rem;
+        color: $pink-violet;
+    }
+    label {
+        font-size: 0.813rem;
+        color: $semi-black;
+    }
+    .submit {
+        width: 100%;
+
+        @include media-breakpoint-up(sm) {
+            width: auto;
+        }
+    }
+}
+.content-wrap {
+    .media-heading {
+        font-size: 0.813rem;
+        line-height: 1.250rem;
+        color: $gray-regular;
+
+        strong {
+            color: $semi-black;
+        }
+        a {
+            color: $gray-regular;
+        }
+    }
+    .media-left {
+        display: none;
+    }
+    .comment {
+        margin-bottom: 0.938rem;
+        padding: 0.938rem;
+        flex-direction: column;
+        font-size: 0.813rem;
+        line-height: 1.250rem;
+        background-color: $semi-white;
+
+        ul {
+            width: 100%;
+
+            .comment {
+                margin-bottom: 0;
+                padding-left: 1.875rem;
+                padding-right: 0;
+            }
+        }
+    }
+    .comment-body {
+        width: 100%;
+    }
+    .comment-content p {
+        color: $gray-regular;
+    }
+    .comment-metadata {
+        text-align: right;
+    }
+    .comment-edit-link {
+        color: $pink-violet;
+    }
+    .comment-notes,
+    .comment-reply-title {
+        display: none;
+    }
+    .comment-reply-link {
+        @extend .btn;
+        @extend .btn-outline-primary;
+    }
+}

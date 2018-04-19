@@ -1,0 +1,151 @@
+
+
+.tarot-do-amor{
+    .step1{
+        margin-bottom: 20px;
+        h4{
+            margin-bottom: 20px;
+        }
+    }
+    .step2{
+        margin-top: 20px;
+    }
+
+    .entry-header{
+        display: none;
+    }
+
+    font-size: 0.875rem;
+}
+
+#pack_cont{
+
+    width: 100%;
+
+    overflow-y: hidden;
+    margin:0;
+    padding-top: 25px;
+    margin-bottom: 25px;
+    position: relative;
+    border-radius: 10px;
+
+    background-color: $pink-light;
+
+    @include media-breakpoint-up(lg) {
+        height: 475px !important;
+    }
+    @include media-breakpoint-up(sm) {
+        height: 675px;
+    }
+    @include media-breakpoint-up(xs) {
+        height: 1000px;
+    }
+
+    .card{
+        width: 77px;
+        height: 119px;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -ms-border-radius: 10px;
+        border-radius: 10px;
+        border: 3px solid #fff;
+        padding:5px;
+        position: absolute;
+        background: #efc5ca;
+        cursor: pointer;
+        text-align: center;
+
+        background-image: url("../../jogos/tarot-do-amor/img/verso.jpg");
+        background-size: contain;
+
+        /*all transition to take 1s */
+        transition:all 1s;
+        -ms-transition:all 1s;
+        -webkit-transition:all 1s;
+        -moz-transition:all 1s;
+
+        /*set card transform origin to 20% from x-axis and 80% from y-axis */
+        transform-origin: 20% 80%;
+        -ms-transform-origin: 20% 80%;
+        -webikit-transform-origin: 20% 80%;
+        -moz-transform-origin: 20% 80%;
+
+        /*make card non selectable*/
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+
+        box-shadow: -1px 1px 5px rgba(50, 50, 50, 0.75);
+
+        // @include transition(top .3s ease);
+
+        &:hover{
+            top: -15px;
+            z-index: 50 !important;
+        }
+    }
+
+}
+
+/* Modal */
+@include media-breakpoint-up(sm) {
+    .modal-dialog{
+        max-width: 600px;
+    }
+}
+
+@include media-breakpoint-down(sm) {
+    #description{
+        margin-top: 20px;
+    }
+}
+
+/* Bugfix Modal Bootstrap v4 alpha */
+.fade.in {
+  opacity: 1;
+}
+.modal.in .modal-dialog {
+  -webkit-transform: translate(0, 0);
+  -o-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+.modal-backdrop.in {
+  opacity: 0.5;
+}
+
+#image{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#modal_tda_register{
+    .modal-content{
+        background-color: #29511F;
+    }
+    input{
+        margin-bottom: 25px;
+        padding: 15px;
+    }
+    .result{
+        background-color: #fff;
+    }
+}
+
+.btn-thrive {
+    color: #ffffff;
+    background-color: #7FCB78;
+    border-color: #29511F;
+    font-size: 18px;
+    padding: 15px;
+    &:hover {
+        color: #ffffff;
+        background-color: #57B152;
+        border-color: #29511F;
+    }
+    &:active{
+        background-image: none;
+    }
+}

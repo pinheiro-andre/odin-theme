@@ -1,0 +1,50 @@
+// ==========================================================================
+// Theme Custom Variables
+// ==========================================================================
+
+//
+// Example, Try next line!
+//
+
+$pink-light: #fdefee; // background
+$pink-smooth: #ffd6d6; // borders
+$pink-salmon: #ffaaaa; // footer
+$pink-violet: #bb0560; // button and links
+$pink-feature: #ff86a0; // links to featured itens
+$whatsapp-color: #25D366;
+$green-action: #35c604;
+$green-available: #35c604;
+
+$a-purple: #704272;
+$a-blue: #1286e2;
+$a-orange: #f87c08;
+$pumpkin: #f76263;
+
+$gray-smooth: #999;
+$gray-regular: #666;
+$gray-strong: #444;
+$semi-black: #1e030c;
+$semi-white: #f4f4f4;
+
+$title-color: $a-purple;
+$text-color: $gray-strong;
+
+$font-regular: "OpenSans", Arial,sans-serif;
+$font-bold: "OpenSans-Bold", Arial,sans-serif;
+
+@font-face {
+	font-family: OpenSans;
+	src: url('../fonts/open-sans/OpenSans.ttf') format('truetype'),
+		 url('../fonts/open-sans/OpenSans.eot'),
+		 url('../fonts/open-sans/OpenSans.woff');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: OpenSans-Bold;
+	src: url('../fonts/open-sans/OpenSans-Bold.ttf') format('truetype'),
+		 url('../fonts/open-sans/OpenSans-Bold.eot'),
+		 url('../fonts/open-sans/OpenSans-Bold.woff');
+		font-weight: normal;
+		font-style: normal;
+}

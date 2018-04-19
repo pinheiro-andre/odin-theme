@@ -1,0 +1,21 @@
+{
+  "name": "Astrocentroblog",
+  "description": "Astrocentro blog",
+  "version": "1.0.0",
+  "title": "Astrocentro blog",
+  "homepage": "https://www.astrocentro.com.br/blog",
+  "main": "gulpfile.js",
+  "devDependencies": {
+    "colors": "^0.6.2",
+    "gulp": "^3.8.6",
+    "gulp-clean": "^0.3.2",
+    "gulp-clean-css": "^3.0.3",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^0.6.2",
+    "gulp-jshint": "^1.12.0",
+    "gulp-rename": "^1.2.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^0.3.2",
+    "rsyncwrapper": "^0.4.0"
+  }
+}

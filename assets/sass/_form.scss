@@ -1,0 +1,15 @@
+.form-control {
+	border-color: $pink-smooth;
+}
+.btn-primary {
+  @include button-variant($white, $pink-violet, $pink-violet);
+}
+.btn-outline-primary {
+  @include button-outline-variant($pink-violet, $color-hover: #fff);
+}
+.btn-secondary {
+  @include button-variant($white, $a-blue, $a-blue);
+}
+.btn-action {
+  @include button-variant($white, $green-action, $pink-light);
+}

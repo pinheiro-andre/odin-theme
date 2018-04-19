@@ -1,0 +1,112 @@
+{
+  "card_00": {
+    "name": "O Mago",
+    "image": "0",
+    "description": "<p>Período que aponta para um potencial criativo.<br>Você vai entrar em um período de reconciliação ou de harmonia no seu romance. Aproveite este momento dinâmico, sem espaço para tristeza ou rotina.</p><p>Quer fazer uma consulta de Tarot com um dos tarológos do Astrocentro? Deixe seu contato</p>"
+  },
+  "card_01": {
+    "name": "A Sacerdotista",
+    "image": "1",
+    "description": "<p>Período de brilho e sucesso.<br>Esta carta simboliza o equilíbrio dos seus sentimentos. Os seus desejos serão protegidos e você vai ultrapassar as fraquezas que hoje impedem a sua relação de se firmar. Pode significar gravidez inesperada. Acredite em sua intuição.</p>"
+  },
+  "card_02": {
+    "name": "A Imperatriz",
+    "image": "2",
+    "description": "<p>Ela representa a colheita dos nossos anseios mais íntimos.<br>Esta carta simboliza a realização pessoal. Anúncio de um período de ternura e de compreensão. A Imperatriz pode significar uma união forte, um casamento ou até um filho vindo por aí.</p>"
+  },
+  "card_03": {
+    "name": "O Imperador",
+    "image": "3",
+    "description": "<p>Simboliza o poder, a riqueza.<br>Possibilidade de conhecer e se apaixonar por alguém de uma classe social mais alta. Indica o casamento com pessoa de boa situação financeira e de bom carácter. Seu par pode ser muito controlador, preste atenção nisso.</p>"
+  },
+  "card_04": {
+    "name": "O Sacerdote",
+    "image": "4",
+    "description": "<p>Poder espiritual, autoridade, dever moral.<br>Esta carta simboliza o possível retorno de alguém do passado ou o casamento com alguém que já tenha certa experiência de vida. Também revela a um amor protetor e tradicionalista.</p>"
+  },
+  "card_05": {
+    "name": "Os Enamorados",
+    "image": "5",
+    "description": "<p>Livre-arbítrio; visão para resolver problemas, renúncia aos prazeres. Momento de escolha.<br>Você precisará fazer uma escolha difícil. Deverá confiar em sua própria voz interior. É possível que o seu atual amor não seja a pessoa que você realmente acha que é ou que seu coração esteja dividido entre duas pessoas. Não fique em cima do muro, é preciso decidir.</p>"
+  },
+  "card_06": {
+    "name": "O Carro",
+    "image": "6",
+    "description": "<p>Equilíbrio, sucesso, triunfo.<br>Seus desejos poderão se realizar. Tenha fé. Esta carta anuncia uma aproximação amorosa. Relacionamento com algumas brigas, mas também com muita química e energia sexual.</p>"
+  },
+  "card_07": {
+    "name": "A Justiça",
+    "image": "7",
+    "description": "<p>É a reação de equilibrio entre o direito e o dever.<br>Você vai viver um amor sem cobranças. Tome cuidado para não provocar brigas. Se está em um momento difícil da relação, saiba que tudo irá fluir para o caminho mais justo e cada um colherá o que plantou.</p>"
+  },
+  "card_08": {
+    "name": "O Eremita",
+    "image": "8",
+    "description": "<p>Esta carta pede que andemos mais devagar em nossas vidas, analisando tudo o que estiver ao nosso alcance. <br>Saudades da pessoa amada, que pode estar longe. Você poderá atravessar um período de solidão, mas caso isso aconteça será importante para a sua evolução afetiva.</p>"
+  },
+  "card_09": {
+    "name": "A Roda da Fortuna",
+    "image": "9",
+    "description": "<p>Mudanças estão para acontecer em sua vida de uma hora para a outra. <br>Aproveite todos momentos ao lado de seu amor - viva com intensidade o dia de hoje, pois o amanhã não nos pertence! Esta carta pode anunciar tanto um casamento e uma boa situação financeira, quanto discórdia e términos. O arcano diz que tudo o que hoje está em cima pode estar embaixo no futuro.</p>"
+  },
+  "card_10": {
+    "name": "A Força",
+    "image": "10",
+    "description": "<p>Inteligência, sucesso, magnetismo sexual.<br>Você vai conhecer uma nova pessoa e vai se envolver em uma situação totalmente nova. Anuncia a chegada de uma pessoa com muito entusiasmo pela vida, que mudará o modo como hoje você vive a sua.</p>"
+  },
+  "card_11": {
+    "name": "O Enforcado",
+    "image": "11",
+    "description": "<p>Idealismo exagerado, sacrifício, acomodação, possibilidade de escolha errada.<br>Cuidado com traição e abandono. Poderá haver uma separação que resultará em crescimento interior para os dois. Se algo não está bom, não adianta insistir - não se prenda em situações por mero comodismo.</p>"
+  },
+  "card_12": {
+    "name": "A Morte",
+    "image": "12",
+    "description": "<p>Transformação radical, possibilidade de mudanças importantes, novas perspectivas.<br>Esta carta promete novidades no amor - prepare-se para fazer as pazes e viver um novo momento do casal, para conhecer alguém especial ou para o fim daquela relação que já não é mais saudável nem feliz.</p>"
+  },
+  "card_13": {
+    "name": "A Temperança",
+    "image": "13",
+    "description": "<p>Representa a serenidade e eficiência, equilíbrio em todas as coisas. <br>Período de união, de convivência harmoniosa. Você vai conhecer um amor sereno. No futuro, terá a possibilidade de um bom casamento com uma pessoa altamente espiritualizada. Tenha calma e coloque a cabeça no lugar.</p>"
+  },
+  "card_14": {
+    "name": "O Diabo",
+    "image": "14",
+    "description": "<p>Força misteriosa, sedução, tentação.<br>Procure ver se este relacionamento não é feito só de paixão, o que poderá trazer dor ou sofrimento no futuro. Pode também significar que o casamento marcado pode não se realizar. Momento de vida sexual intensa, bom para conhecer pessoas novas. Pode anunciar traições, tenha cuidado. Se está traindo ou pensando em trair, pode ser que seus planos sejam descobertos.</p>"
+  },
+  "card_15": {
+    "name": "A Torre",
+    "image": "15",
+    "description": "<p>Dificuldades gerais, destruição, orgulho desmedido.<br>Rompimento que poderá ser inevitável: você não sinte o amor como antigamente. Algo muito sério irá acontecer na vida deste casal - se o relacionamento ainda não começou, nem entre nele, ou poderá sofrer bastante.</p>"
+  },
+  "card_16": {
+    "name": "A Estrela",
+    "image": "16",
+    "description": "<p>Esperança, uma grande sorte por vir.<br>Período de muita paz e tranquilidade no romance. Pode significar retorno com relacionamento que no passado foi muito feliz. Para quem está só, anuncia a chegada de uma pessoa especial.</p>"
+  },
+  "card_17": {
+    "name": "A Lua",
+    "image": "17",
+    "description": "<p>Advertência, forças ocultas, alerta.<br>Esta carta anuncia momentos de magia e de serenidade com o seu amor, mas também fala de se iludir com falsas promessas. Tenha cuidado e dê atenção à sua intuição.</p>"
+  },
+  "card_18": {
+    "name": "O Sol",
+    "image": "18",
+    "description": "<p>Realização, êxito, felicidade.<br>Esta carta promete um reencontro. No futuro você vai conhecer um casamento feliz e triunfante. O Sol fala de relações duradouras, honestas, que podem vir a formar excelentes núcleos familiares.</p>"
+  },
+  "card_19": {
+    "name": "O Jugalmento",
+    "image": "19",
+    "description": "<p>Momento especial de reavaliação da vida.<br>Pode ser que você reencontre um amor antigo que acreditava ter chegado ao fim. Cuidado para não julgar demais - você sabe que também comete erros. Não é um bom momento para engatar uma nova relação.</p>"
+  },
+  "card_20": {
+    "name": "O Mundo",
+    "image": "20",
+    "description": "<p>Deste momento em diante tudo na sua vida será realizações e bons acontecimentos.<br>Possibilidade de encontro amoroso em pouco tempo. Você viverá um casamento prospero e feliz. Prepare-se para saber aproveitar uma onda de plenitude e bênçãos.</p>"
+  },
+  "card_21": {
+    "name": "O Louco",
+    "image": "21",
+    "description": "<p>Instabilidade, aventuras, imprudência.<br>Prepare-se, esta carta anuncia a chegada de uma nova época, feliz e de plena harmonia no amor. Mas, para que isso aconteça, é preciso deixar de lado algumas crenças antigas e partir para uma nova jornada, esteja você com ou sem companhia no momento.</p>"
+  }
+}

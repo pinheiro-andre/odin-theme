@@ -1,0 +1,172 @@
+@mixin arrow-right($color, $bg) {
+
+    &:before,
+    &:after {
+        position: absolute;
+        left: 0;
+        right: auto;
+        margin: 0;
+        height: 0;
+        width: 0;
+        content: "";
+        border: solid transparent;
+    }
+    &:before {
+        border-width: 10px;
+        margin-top: -10px;
+        border-left-color: $color;
+    }
+    &:after {
+        border-width: 8px;
+        margin-top: -8px;
+        border-left-color: $bg;
+    }
+}
+
+@mixin arrow-left($color, $bg) {
+
+    &:before,
+    &:after {
+        position: absolute;
+        left: auto;
+        right: 0;
+        margin: 0;
+        height: 0;
+        width: 0;
+        content: "";
+        border: solid transparent;
+    }
+    &:before {
+        border-width: 10px;
+        margin-top: -10px;
+        border-right-color: $color;
+    }
+    &:after {
+        border-width: 8px;
+        margin-top: -8px;
+        border-right-color: $bg;
+    }
+}
+
+@mixin arrow-top($color, $bg) {
+
+    &:before,
+    &:after {
+        position: absolute;
+        bottom: 100%;
+        left: 50%;
+        right: auto;
+        top: auto;
+        margin: 0;
+        height: 0;
+        width: 0;
+        content: "";
+        border: solid transparent;
+    }
+    &:before {
+        border-width: 10px;
+        margin-left: -10px;
+        border-bottom-color: $color;
+    }
+    &:after {
+        border-width: 8px;
+        margin-left: -8px;
+        border-bottom-color: $bg;
+    }
+}
+
+@mixin arrow-bottom($color, $bg) {
+
+    &:before,
+    &:after {
+        position: absolute;
+        bottom: auto;
+        top: 100%;
+        left: 50%;
+        right: auto;
+        margin: 0;
+        height: 0;
+        width: 0;
+        content: "";
+        border: solid transparent;
+    }
+    &:before {
+        border-width: 10px;
+        margin-left: -10px;
+        border-top-color: $color;
+    }
+    &:after {
+        border-width: 8px;
+        margin-left: -8px;
+        border-top-color: $bg;
+    }
+}
+@mixin social-media-icon($wh, $size) {
+    display: block;
+    height: $wh;
+    width: $wh;
+    background-repeat: no-repeat;
+    background-size: $size $size;
+    background-position: center top;
+}
+
+// SB - Separate Blocs
+.ac-sb {
+    margin-bottom: 2.5rem;
+}
+
+// Loading bar
+.pace {
+    -webkit-pointer-events: none;
+    pointer-events: none;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+
+    .pace-progress {
+        background: $pink-violet;
+        position: fixed;
+        z-index: 2000;
+        top: 0;
+        right: 100%;
+        width: 100%;
+        height: 2px;
+    }
+
+}
+.pace-inactive {
+    display: none;
+}
+
+// mask to block scroll with navbar opened
+.mask-menu-over {
+    display: none;
+    height: 100%;
+    width: 100%;
+    background: transparent;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    z-index: 98;
+
+    &.active {
+        display: block;
+    }
+}
+
+@mixin transition($args...) {
+  -webkit-transition: $args;
+  -moz-transition: $args;
+  -ms-transition: $args;
+  -o-transition: $args;
+  transition: $args;
+}
+
+@mixin rotate($degrees) {
+   -webkit-transform: rotate($degrees);
+   -moz-transform: rotate($degrees);
+   -ms-transform: rotate($degrees);
+   -o-transform: rotate($degrees);
+   transform: rotate($degrees);
+}

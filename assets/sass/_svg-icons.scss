@@ -1,0 +1,92 @@
+.svg-i {
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+.i-phone {
+    background-image: url(../images/phone.svg);
+
+    &._purple {
+        background-image: url(../images/phone-purple.svg);
+    }
+}
+.i-msg {
+    background-image: url(../images/bubble.svg);
+
+    &._purple {
+        background-image: url(../images/bubble-purple.svg);
+    }
+}
+.i-contact {
+    background-image: url(../images/envelop.svg);
+
+    &._purple {
+        background-image: url(../images/envelop-purple.svg);
+    }
+}
+.i-search {
+    background-image: url(../images/search.svg);
+
+    &._purple {
+        background-image: url(../images/search-purple.svg);
+    }
+}
+.i-stack {
+    background-image: url(../images/stack.svg);
+
+    &._purple {
+        background-image: url(../images/stack-purple.svg);
+    }
+}
+.i-chat {
+    background-image: url(../images/chat-gray.svg);
+
+    &._white {
+        background-image: url(../images/chat-white.svg);
+    }
+}
+.i-clock {
+    background-image: url(../images/clock-gray.svg);
+
+    &._white {
+        background-image: url(../images/clock-white.svg);
+    }
+}
+.i-wa {
+    background-image: url(../images/whatsapp-gray.svg);
+}
+.i-tt {
+    background-image: url(../images/twitter-gray.svg);
+}
+.i-fb-c {
+    background-image: url(../images/facebook-c.svg);
+}
+.i-wa-c {
+    background-image: url(../images/whatsapp-c.svg);
+}
+.i-wa-white {
+    background-image: url(../images/whatsapp-white.svg);
+}
+.i-tt-c {
+    background-image: url(../images/twitter-c.svg);
+}
+.i-fb {
+    background-image: url(../images/facebook-gray.svg);
+}
+.i-rss {
+    background-image: url(../images/rss-gray.svg);
+}
+.i-is {
+    background-image: url(../images/instagram-gray.svg);
+}
+.i-gp {
+    background-image: url(../images/googleplus-gray.svg);
+}
+.i-bell {
+    background-image: url(../images/bell-white.svg);
+}
+.i-home {
+    background-image: url(../images/home.svg);
+}
+.i-search-white {
+    background-image: url(../images/search-white.svg);
+}
