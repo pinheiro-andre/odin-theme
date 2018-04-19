@@ -1,8 +1,16 @@
 # odin-theme
 
-Theme responsive Wordpress d'Astrocentro Bresil
+Responsive Wordpress theme :: Astrocentro Brasil
 
-Incluant :
-- les notifications sur Chrome et Firefox
+Including :
+- Chrome and Firefox Pushs notifications
 - Gulp
-- 2 jeux : Compatibility Signs et Love Tarot card reading
+- Game Compatibility Signs
+    /assets/js/compatibility.js
+    /assets/sass/_signs-compatibility.scss
+    /jogos/compatibilidade/*
+
+- Game Love Tarot card reading
+    /assets/js/tarot-amor.js
+    /assets/sass/_tarot-amor.scss
+    /jogos/tarot-do-amor/*
